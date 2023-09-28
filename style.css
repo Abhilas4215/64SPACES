@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.nav-link{
+    color: #1B1925;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.image-container {      
+    position: relative;
+    text-align: center;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .image-text {
+    margin-top: 100px;
+    padding-top: 100px;
+    position: absolute;
+    top: 50%; /* Adjust vertically as needed */
+    left: 50%; /* Center horizontally */
+    font-size: 30px;
+    font-weight: 700;
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    color: #fff; /* Text color */
+  }
+  .icon-divider {
+    border-right: 1px solid #ccc; /* Specify the border style, color, and thickness */
+    margin: 20px 0; /* Add margin for spacing */
+  }
+  #Satisfied-customer{
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #E5E5E5;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 15px 20px;
+    padding: 15px 28px 9px 0px;
+    background-color: var(--grey-color);
+    display: flow-root;
+}
+#card-design{
+  display: ;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.one-side-rounded-pill{
+  border-radius: 25px 0 0 25px;
+}
